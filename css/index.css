@@ -1,18 +1,18 @@
 .icons {
-    width: 50px;
+    width: 3.125rem;
 }
 
 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #393939;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 300;
 }
 
 ul {
     list-style-type: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 400;
 }
 
@@ -23,18 +23,18 @@ nav {
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #393939;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 300;
 }
 
 p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
 .coffeebeans {
-    height: 280px;
+    height: 17.5rem;
 }
 
 header { 
@@ -44,7 +44,7 @@ header {
 button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFF;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 400;
     background-color: #5BACC3;
     border: none;
@@ -52,31 +52,31 @@ button {
 
 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 300;
 }
 
 .images {
-    height: 280px;
-}
+    height: 17.5rem;
+}   
 
 .drinks {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 33px;
+    font-size: 2.0625rem;
     font-weight: 300;
 }
 
 #price {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #5BACC3;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
 .discount-tag {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFF;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 400;
     font-style: bold;
     background-color: #393939;
@@ -93,14 +93,14 @@ h2 {
 .more-info {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#393939;
-    font-size: 33px;
+    font-size: 2.0625rem;
     font-weight: 300;
 }
 
 .location-hours {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #393939;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
