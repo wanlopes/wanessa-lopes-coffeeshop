@@ -89,9 +89,12 @@ button {
     font-size: 2.8125rem;
     font-weight: 400;
     background-color: #393939;
-    width: 80%;
-    text-align: center; 
-    margin: 9.375rem 1.875rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    text-align: center;
     padding: 1.25rem;
 }    
    
@@ -156,7 +159,7 @@ body {
 .container {
     text-align: left;
     width: 25%;
-    padding: 100px 120px 100px 120px;
+    padding: 100px 0px 100px 120px;
 }
 
 .button-purchase {
@@ -168,7 +171,3 @@ body {
 .showcase {
     background-color: #F7F7F7;
 }
-
-.first-nitro {
-    margin: auto;
-}    
