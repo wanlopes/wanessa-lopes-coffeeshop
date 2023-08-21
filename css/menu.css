@@ -1,128 +1,135 @@
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav {
-    color: #393939;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    font-size: 3.75rem;
-    display: inline;
-    margin-right: 0.25rem;
+  color: #393939;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 3.75rem;
+  display: inline;
+  margin-right: 0.25rem;
 }
 
-.nav-options{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 1.4375rem;
-    display: inline-flex; 
+.nav-options {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.4375rem;
+  display: inline-flex;
 }
 
 h1 {
-    background-image: url("../assets/Assets/coffee-circle.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 43.75rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+  background-image: url("../assets/Assets/coffee-circle.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 43.75rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
-
 .drinks {
-    background-color: #393939;
-    color: #FFF;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 1.320rem;
-    text-align: center;
-    width: 100%;
-    height: 5rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    border-width: 0.25rem;
+  background-color: #393939;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.32rem;
+  text-align: center;
+  width: 100%;
+  height: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-width: 0.25rem;
 }
 
 .box-title {
-    background-color: #393939;
-    width: 18.75rem;
-    height: 12.5rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #FFF;
-    font-size: 3.75rem;
-    font-weight: 300;
-    text-align: center; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: #393939;
+  width: 18.75rem;
+  height: 12.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hot , 
+.hot,
 .pastries {
-    background-color: #FFF0ED;
+  background-color: #fff0ed;
 }
 
 h3 {
-    color: #393939;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.1rem;
-    font-weight: 300;
-    text-align: center;
+  color: #393939;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 p {
-    color:#393939;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    width: 33%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  color: #393939;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 33%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .price {
-    color: #5BACC3;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0rem;
-    padding-bottom: 1.25rem;
+  color: #5bacc3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0rem;
+  padding-bottom: 1.25rem;
 }
 
 .cold {
-    background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 h2 {
-    color: #393939;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 300;
-    text-align: start;
-    margin-top: 0rem;
+  color: #393939;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: start;
+  margin-top: 0rem;
 }
 
 .head-bar {
-    background-color: #FFF0ED;
+  background-color: #fff0ed;
 }
 
 .head-menu {
-    display: inline-block;
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
+  display: inline-block;
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
 }
 
 .body-menu {
-    display: inline-block;
-    margin: 1.875rem 1.25rem 1.875rem 1.25rem;
-    border-left: 0.25rem solid #5BACC3;
-    padding-left: 1rem;
+  display: inline-block;
+  margin: 1.875rem 1.25rem 1.875rem 1.25rem;
+  border-left: 0.25rem solid #5bacc3;
+  padding-left: 1rem;
 }
 
 body {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
