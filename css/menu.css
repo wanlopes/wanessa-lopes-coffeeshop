@@ -58,6 +58,10 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .hot,
@@ -132,4 +136,8 @@ h2 {
 
 body {
   margin: 0 0 0 0;
+}
+
+.name {
+  padding-top: 50px;
 }

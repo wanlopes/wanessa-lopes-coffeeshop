@@ -17,11 +17,13 @@
           alt="coffee bean logo"
       /></a>
       <h2 class="coffee-name">nitro</h2>
-      <ul>
-        <li><a class="active-menu" href="index.html">ABOUT</a></li>
-        <li><a href="pages/menu.html">MENU</a></li>
-        <li><a href="pages/menu.html">SHOP NOW</a></li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li><a class="active-menu" href="index.html">ABOUT</a></li>
+          <li><a href="pages/menu.html">MENU</a></li>
+          <li><a href="pages/menu.html">SHOP NOW</a></li>
+        </ul>
+    </div>
     </nav>
 
     <header>
@@ -32,14 +34,10 @@
             Coffee is a brewed drink prepared from rosted coffee beans, the
             seeds of berries from certain from certain Coffea species.
           </p>
-          <a href="pages/menu.html"><button>SHOP NOW</button></a>
+            <a href="pages/menu.html"><button>SHOP NOW</button></a>
         </div>
         <div class="coffee-image">
-          <img
-            class="coffeebeans"
-            src="assets\Assets\coffeebeans-hero.png"
-            alt="coffee bag"
-          />
+          <img class="coffeebeans" src="assets\Assets\coffeebeans-hero.png" alt="coffee bag"/>  
         </div>
       </div>
     </header>
@@ -47,36 +45,44 @@
     <section class="showcase">
       <h2 class="section-header-centralized">Our Products</h2>
       <br />
-
       <div class="center-text">
         <div class="cards">
-          <img
-            class="images"
-            src="assets\Assets\coffeebeans.png"
-            alt="coffee bag"
-          />
-          <h3 class="drinks">Coffee Beans</h3>
-          <p id="price">$18.99</p>
+          <div>
+            <img class="images" src="assets\Assets\coffeebeans.png" alt="coffee bag"/>
+          </div>  
+          <div class="feature">  
+            <h3 class="drinks">Coffee Beans</h3>
+            <p id="price">$19</p>
+            <p class="unit">Pack of 3</p>
+          </div>
         </div>
 
         <div class="cards">
-          <img
-            class="images"
-            src="assets\Assets\coldbrew.png"
-            alt="cold brew"
-          />
-          <h3 class="drinks">Cold Brew</h3>
-          <p id="price">$4.99</p>
+          <div>
+            <img
+              class="images"
+              src="assets\Assets\coldbrew.png"
+              alt="cold brew"/>
+          </div>    
+          <div class="feature">
+            <h3 class="drinks">Cold Brew</h3>
+            <p id="price">$5</p>
+            <p class="unit">1 can</p>
+          </div>  
         </div>
 
         <div class="cards">
-          <img
-            class="images"
-            src="assets\Assets\inhousebrew.png"
-            alt="in-house brew"
-          />
-          <h3 class="drinks">In-house Brew</h3>
-          <p id="price">$2.99</p>
+          <div>
+            <img
+              class="images"
+              src="assets\Assets\inhousebrew.png"
+              alt="in-house brew"/>
+          </div>
+          <div class="feature">
+            <h3 class="drinks">In-house Brew</h3>
+            <p id="price">$3</p> 
+            <p class="unit">1 cup</p>
+          </div>
         </div>
       </div>
       <br />
@@ -86,6 +92,22 @@
       </div>
     </section>
     <section>
+      <div class="container-2">
+        <div class="learn-more">
+          <h2 class="regarding">We're Different</h2>
+          <p>We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+          <img class="icons logo" src="assets\Assets\planting.svg" alt="planting"/>
+          <img class="icons logo" src="assets\Assets\coffee-beans.svg" alt="coffee-beans"/>
+          <img class="icons logo" src="assets\Assets\coffee-cup.svg" alt="coffee-cup"/>
+        <div class="learn-button">  
+          <button>LEARN MORE</button>
+        </div>  
+        </div>
+        <div class="parent-1">
+          <img class="back-image" src="assets\Assets\coldbrewbackground.png" alt="background"/>
+          <img class="can-image" src="assets\Assets\tiltedcan.png" alt="tiltedcan"/>
+        </div> 
+      </div>
       <p class="discount-tag">
         Get 20% off your first order with code: <strong>FirstNitro</strong>
       </p>
