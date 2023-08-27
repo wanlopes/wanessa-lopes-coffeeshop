@@ -144,7 +144,24 @@ body {
   margin: auto;
   padding-bottom: 3.125rem;
   width: 11.25rem;
-  font-size: ;
+  position: relative;
+  display: inline-block;
+  color: white;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.button-purchase::before {
+  content: "";
+  position: absolute;
+  top: 5px; /* Adjust the top position to control the offset */
+  left: 5px; /* Adjust the left position to control the offset */
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border: 2px solid black; /* Border color */
+  border-radius: 3px;
+  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with clicks */
 }
 
 .showcase {
@@ -190,18 +207,23 @@ body {
   margin-left: 7.8125rem;
 }
 
+.parent-1 {
+  position: relative;
+}
+
 .back-image {
   width: 25rem;
   margin: 120px 200px 40px 280px;
   border: 5px solid #5bacc3;
   position:relative;
+  box-shadow: 20px 20px;
 }
 
 .can-image {
   height: 280px;
   position: absolute;
   margin-left: -520px; 
-}
+}  
 
 .container-2 {
   display: flex;
@@ -209,9 +231,19 @@ body {
 }
 
 .logo {
-  padding-right: 90px;
+ /* padding-right: 90px; */
+}
+
+.button-container {
+  position: relative;
 }
 
 .learn-button {
   margin-top: 40px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
