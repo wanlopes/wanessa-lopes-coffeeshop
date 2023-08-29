@@ -62,7 +62,9 @@ button {
   color: #5bacc3;
   font-weight: 700;
   font-size: 2.0625rem;
-  justify-content: end;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
 }
 
 .discount-tag {
@@ -113,7 +115,6 @@ li {
   display: inline-block;
   width: 20.625rem;
   height: 29.7rem;
-  text-align: center;
   border-radius: 0.625rem;
   box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
@@ -188,6 +189,7 @@ body {
   background-color: #FFF0ED;
   border-radius: 0 0 0.625rem 0.625rem;
   width: 350px;
+  height: 44%;
 } 
 
 .unit {
@@ -246,4 +248,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.drink-tag {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.unit-tag {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
 }
