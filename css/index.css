@@ -28,6 +28,7 @@ nav {
 .coffeebeans {
   height: 28.125rem;
   vertical-align: middle;
+  margin-bottom: 12px;
 }
 
 header {
@@ -56,6 +57,8 @@ button {
   font-size: 2.0625rem;
   font-weight: 300;
   color: #393939;
+  justify-content: center;
+
 }
 
 #price {
@@ -127,7 +130,8 @@ body {
 
 .center-text {
   margin: auto;
-  width: fit-content;
+  width: fit-content; 
+
 }
 
 .work-info {
@@ -150,19 +154,16 @@ body {
   color: white;
   border: none;
   text-decoration: none;
-  overflow: hidden;
-}
+} 
 
-.button-purchase::before {
-  content: "";
-  position: absolute;
-  top: 5px; /* Adjust the top position to control the offset */
-  left: 5px; /* Adjust the left position to control the offset */
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  border: 2px solid black; /* Border color */
-  border-radius: 3px;
-  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with clicks */
+.button-purchase::after {
+content:" ";
+position:absolute;
+border: 2px solid #393939;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
 }
 
 .showcase {
@@ -173,6 +174,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #FFF0ED;
 }
 
 .coffee-image {
@@ -209,7 +211,7 @@ body {
   margin-left: 7.8125rem;
 }
 
-.parent-1 {
+.element-1 {
   position: relative;
 }
 
@@ -224,8 +226,17 @@ body {
 .can-image {
   height: 280px;
   position: absolute;
-  margin-left: -520px; 
+  margin-left: -500px; 
+  margin-top: 170px;
 }  
+
+.element-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: -10;
+}
 
 .container-2 {
   display: flex;
@@ -260,4 +271,9 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
 }
