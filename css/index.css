@@ -17,7 +17,7 @@
   font-weight: 400;
   display: flex;
   justify-content: flex-end;
-  margin-top: -60px;
+  margin-top: -3.75rem;
 
 }
 
@@ -28,7 +28,7 @@ nav {
 .coffeebeans {
   height: 28.125rem;
   vertical-align: middle;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 header {
@@ -42,7 +42,7 @@ button {
   font-size: 1.3125rem;
   font-weight: 400;
   background-color: #5bacc3;
-  border: 2px solid #393939;
+  border: 0.125rem solid #393939;
   text-align: center;
   padding: 0.8125rem 1.625rem;
 }
@@ -68,6 +68,7 @@ button {
   flex-direction: row;
   justify-content: flex-end;
   align-content: center;
+  margin: 0;
 }
 
 .discount-tag {
@@ -112,9 +113,8 @@ li {
   margin-right: 1.875rem;
 }
 
-.cards {
+.card {
   margin: 1.87rem;
-  padding: 1.25rem;
   display: inline-block;
   width: 20.625rem;
   height: 29.7rem;
@@ -190,8 +190,6 @@ transform: translate(-50%,-50%);
 .feature {
   background-color: #FFF0ED;
   border-radius: 0 0 0.625rem 0.625rem;
-  width: 350px;
-  height: 44%;
 } 
 
 .unit {
@@ -203,7 +201,7 @@ transform: translate(-50%,-50%);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 3.75rem;
   font-weight: 300;
-  margin-top: 120px;
+  margin-top: 7.5rem;
 }
 
 .learn-more {
@@ -217,17 +215,16 @@ transform: translate(-50%,-50%);
 
 .back-image {
   width: 25rem;
-  margin: 120px 200px 40px 280px;
-  border: 5px solid #5bacc3;
+  margin: 7.5rem 12.5rem 2.5rem 17.5rem;
+  border: 0.3125rem solid #5bacc3;
   position:relative;
-  box-shadow: 20px 20px;
 }
 
 .can-image {
-  height: 280px;
+  height: 17.5rem;
   position: absolute;
-  margin-left: -500px; 
-  margin-top: 170px;
+  margin-left: -31.25rem; 
+  margin-top: 10.625rem;
 }  
 
 .element-2 {
@@ -252,7 +249,7 @@ transform: translate(-50%,-50%);
 }
 
 .learn-button {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .image-container {
@@ -261,7 +258,7 @@ transform: translate(-50%,-50%);
   justify-content: space-between;
 }
 
-.drink-tag {
+.info-section {
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
@@ -276,4 +273,8 @@ transform: translate(-50%,-50%);
 .center-align {
   display: flex;
   justify-content: center;
+}
+
+.value-position {
+  
 }
