@@ -1,4 +1,10 @@
-.coffee-name {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.anchor {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393939;
@@ -62,13 +68,7 @@ button {
 }
 
 #price {
-  color: #5bacc3;
-  font-weight: 700;
-  font-size: 2.0625rem;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;
-  margin: 0;
+  
 }
 
 .discount-tag {
@@ -87,11 +87,11 @@ button {
   padding: 1.25rem;
 }
 
-.info {
+.footer {
   background-color: #fff0ed;
 }
 
-.more-info {
+.details {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393939;
@@ -113,20 +113,26 @@ li {
   margin-right: 1.875rem;
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1300px;
+  align-self: center;
+}
+
 .card {
   margin: 1.87rem;
-  display: inline-block;
+  display: flex;
   width: 20.625rem;
   height: 29.7rem;
   border-radius: 0.625rem;
   box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
   background-color:#FFF;
+  flex-direction: column;
 }
 
-body {
-  margin: 0 0 0 0;
-}
 
 .center-text {
   margin: auto;
@@ -134,38 +140,30 @@ body {
 
 }
 
-.work-info {
+.info {
   display: inline-block;
   padding: 3.125rem 6.25rem 3.125rem 9.375rem;
 }
 
-.text-button {
+.text-container  {
   text-align: left;
   width: 25%;
 }
 
 .button-purchase {
   text-align: center;
-  margin: auto;
-  padding-bottom: 3.125rem;
+  margin: 100px auto 100px auto;
+ /* padding-bottom: 3.125rem; */
   width: 11.25rem;
   position: relative;
-  display: inline-block;
   color: white;
   border: none;
   text-decoration: none;
-} 
-
-.button-purchase::after {
-content:" ";
-position:absolute;
-border: 2px solid #393939;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
+  
 }
-
+.button-purchase button {
+  box-shadow: 4px 4px 0 #5bacc3, inset 4px 4px 0px white;
+}
 .showcase {
   background-color: #f7f7f7;
 }
@@ -182,22 +180,46 @@ transform: translate(-50%,-50%);
   padding-top: 2.5rem;
 }
 
-.recipe {
+.paragraph {
   padding-bottom: 0.9375rem;
   padding-top: 0.3125rem;
 }
 
-.feature {
+.card .feature {
   background-color: #FFF0ED;
   border-radius: 0 0 0.625rem 0.625rem;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  flex: 1;
 } 
+
+.card img {
+  padding: 20px;
+}
+
+.card .feature .price {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.card .feature .price p {
+  color: #5bacc3;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 0;
+}
 
 .unit {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 }
 
-.regarding {
+.heading-section {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 3.75rem;
   font-weight: 300;
@@ -241,7 +263,7 @@ transform: translate(-50%,-50%);
 }
 
 .logo {
- /* padding-right: 90px; */
+  padding-right: 90px;
 }
 
 .button-container {
@@ -275,6 +297,3 @@ transform: translate(-50%,-50%);
   justify-content: center;
 }
 
-.value-position {
-  
-}

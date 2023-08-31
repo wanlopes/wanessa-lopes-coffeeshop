@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
 }
 
-.nav {
+.anchor {
   color: #393939;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -12,7 +12,7 @@ ul {
   margin-right: 0.25rem;
 }
 
-.nav-options {
+.list-nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -23,7 +23,7 @@ ul {
   margin-bottom: 0;
 }
 
-.menu-bar {
+.menu-heading {
   background-image: url("../assets/Assets/coffee-circle.jpg");
   background-size: cover;
   background-position: center;
@@ -36,7 +36,7 @@ ul {
   justify-content: center;
 }
 
-.list {
+.drink-list {
   background-color: #393939;
   text-align: center;
   width: 100%;
@@ -46,7 +46,7 @@ ul {
   border-width: 0.25rem;
 }
 
-.box-title {
+.box-heading {
   background-color: #393939;
   width: 18.75rem;
   height: 12.5rem;
@@ -55,7 +55,7 @@ ul {
   margin-right: auto;
 }
 
-.box-title::after {
+.box-heading::after {
   content:" ";
   position:absolute;
   height: 12.5rem;
@@ -118,11 +118,11 @@ h2 {
   margin-top: 0rem;
 }
 
-.head-bar {
+.nav {
   background-color: #fff0ed;
 }
 
-.head-menu {
+.menu-item {
   display: inline-block;
   margin-left: 1.875rem;
   margin-right: 1.875rem;
