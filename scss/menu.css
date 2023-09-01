@@ -155,3 +155,7 @@ h2 {
   font-size: 1.4375rem  
 }
 
+.nav__item--active {
+  color: #5bacc3;
+  list-style-type: none;
+}

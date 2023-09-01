@@ -308,3 +308,6 @@ li {
   justify-content: center;
 }
 
+.nav__icons {
+  width: 3.125rem;
+}
