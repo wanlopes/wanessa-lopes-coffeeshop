@@ -1,10 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  width: 3.125rem;
+}
+
+.section-header-centralized {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #393939;
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+.ul {
+  list-style-type: none;
+}
+
 nav {
   background-color: #fff0ed;
 }
 
 .nav__anchor {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393939;
   font-size: 3.75rem;
   font-weight: 300;
@@ -15,18 +53,16 @@ nav {
 
 .nav__content {
   list-style-type: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.3125rem;
   font-weight: 400;
   display: flex;
   justify-content: flex-end;
   margin-top: -3.75rem;
-
 }
 
 .nav__list {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 1.4375rem;
   display: flex;
@@ -43,7 +79,7 @@ nav {
   background-color: #FFF0ED;
 }
 
-.container__text  {
+.container__text {
   text-align: left;
   width: 25%;
 }
@@ -73,8 +109,7 @@ header {
 }
 
 button {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #fff;
   font-size: 1.3125rem;
   font-weight: 400;
@@ -89,22 +124,20 @@ button {
 }
 
 .drinks {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2.0625rem;
   font-weight: 300;
   color: #393939;
   justify-content: center;
-
 }
 
 .discount-tag {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #fff;
   font-size: 2.8125rem;
   font-weight: 400;
   background-color: #393939;
+  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -119,16 +152,14 @@ button {
 }
 
 .info__details {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393939;
   font-size: 2.0625rem;
   font-weight: 300;
 }
 
 .info__services {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #393939;
   font-size: 1.125rem;
   font-weight: 400;
@@ -156,22 +187,20 @@ li {
   border-radius: 0.625rem;
   box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
-  background-color:#FFF;
+  background-color: #FFF;
   flex-direction: column;
 }
 
-
 .center-text {
   margin: auto;
-  width: fit-content; 
-
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .info {
   display: inline-block;
   padding: 3.125rem 6.25rem 3.125rem 9.375rem;
 }
-
 
 .btn-container button {
   box-shadow: 4px 4px 0 #5bacc3, inset 2px 2px 0px white;
@@ -184,17 +213,18 @@ li {
 .btn-purchase {
   text-align: center;
   margin: 100px auto 100px auto;
- /* padding-bottom: 3.125rem; */
+  /* padding-bottom: 3.125rem; */
   width: 11.25rem;
   position: relative;
   color: white;
   border: none;
   text-decoration: none;
-  
 }
+
 .btn-purchase button {
   box-shadow: 4px 4px 0 #5bacc3, inset 2px 2px 0px white;
 }
+
 .products {
   background-color: #f7f7f7;
 }
@@ -203,7 +233,6 @@ li {
   box-shadow: 4px 4px 0 #5bacc3, inset 4px 4px 0px white;
 }
 
-
 .card .feature {
   background-color: #FFF0ED;
   border-radius: 0 0 0.625rem 0.625rem;
@@ -211,7 +240,7 @@ li {
   align-items: center;
   padding: 0 16px;
   flex: 1;
-} 
+}
 
 .card img {
   padding: 20px;
@@ -239,7 +268,7 @@ li {
 }
 
 .heading-section {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3.75rem;
   font-weight: 300;
   margin-top: 7.5rem;
@@ -258,19 +287,18 @@ li {
   width: 25rem;
   margin: 7.5rem 12.5rem 2.5rem 17.5rem;
   border: 0.3125rem solid #5bacc3;
-  position:relative;
+  position: relative;
 }
 
 .can-image {
   height: 17.5rem;
   position: absolute;
-  margin-left: -31.25rem; 
+  margin-left: -31.25rem;
   margin-top: 10.625rem;
-}  
+}
 
 .container-2 {
   display: flex;
-
 }
 
 .logo {
@@ -310,4 +338,4 @@ li {
 
 .nav__icons {
   width: 3.125rem;
-}
+}/*# sourceMappingURL=index.css.map */
