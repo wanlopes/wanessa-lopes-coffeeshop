@@ -277,6 +277,9 @@ padding-left: 55px;
   margin-top: 10.625rem;
 }  
 
+.can-image:hover {
+  animation: rotationcan 2s;
+}
 
 .container-2 {
   display: flex;
@@ -337,4 +340,9 @@ padding-left: 55px;
 @keyframes colorChange {
   from {background-color: #393939;}
   to {background-color: #5bacc3;}
+}
+
+@keyframes rotationcan {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
