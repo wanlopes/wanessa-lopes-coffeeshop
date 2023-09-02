@@ -15,7 +15,7 @@ nav {
   margin-bottom: 0.3125rem;
 }
 
-.nav__content {
+.content {
   list-style-type: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -23,11 +23,10 @@ nav {
   font-weight: 400;
   display: flex;
   justify-content: flex-end;
-  margin-top: -3.75rem;
-
+  margin-top: -2.5rem;
 }
 
-.nav__list {
+.content__list {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   font-size: 1.4375rem;
@@ -43,6 +42,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   background-color: #FFF0ED;
+  padding-top: 1.25rem;
 }
 
 .container__text  {
@@ -150,6 +150,7 @@ li {
   margin: 0 auto;
   max-width: 1300px;
   align-self: center;
+  padding-top: 1.875rem;
 }
 
 .card {
@@ -195,10 +196,11 @@ li {
   color: white;
   border: none;
   text-decoration: none;
-  
 }
+
 .btn-purchase button {
   box-shadow: 4px 4px 0 #5bacc3, inset 2px 2px 0px white;
+
 }
 .products {
   background-color: #f7f7f7;
