@@ -144,6 +144,7 @@ button {
   margin-bottom: 12rem;
   text-align: center;
   padding: 1.25rem;
+  animation: colorChange 2.5s ease infinite;
 }
 
 .footer {
@@ -230,8 +231,8 @@ li {
   background-color: #f7f7f7;
 }
 
-.back-image element-1 {
-  box-shadow: 4px 4px 0 #5bacc3, inset 4px 4px 0px white;
+.back-image {
+  box-shadow: 5px 5px 0 #5bacc3, inset 20px 20px 0px white;
 }
 
 .card .feature {
@@ -284,14 +285,13 @@ li {
   margin-left: 7.8125rem;
 }
 
-.element-1 {
+/*.element-1 {
   position: relative;
-}
-
+} */
 .back-image {
   width: 25rem;
   margin: 7.5rem 12.5rem 2.5rem 17.5rem;
-  border: 0.3125rem solid #5bacc3;
+  /*border: 0.3125rem solid #5bacc3; */
   position: relative;
 }
 
@@ -354,4 +354,13 @@ li {
 .pic2 {
   width: 120px;
   opacity: 25%;
+}
+
+@keyframes colorChange {
+  from {
+    background-color: #393939;
+  }
+  to {
+    background-color: #5bacc3;
+  }
 }/*# sourceMappingURL=index.css.map */
