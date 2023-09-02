@@ -137,8 +137,7 @@ button {
   font-size: 2.8125rem;
   font-weight: 400;
   background-color: #393939;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 12rem;
@@ -149,6 +148,7 @@ button {
 
 .footer {
   background-color: #fff0ed;
+  height: 250px;
 }
 
 .info__details {
@@ -180,7 +180,8 @@ li {
 }
 
 .card {
-  margin: 1.87rem;
+  margin-top: 1.87rem;
+  margin-bottom: 1.25rem;
   display: flex;
   width: 20.625rem;
   height: 29.7rem;
@@ -212,8 +213,8 @@ li {
 
 .btn-purchase {
   text-align: center;
-  margin: 100px auto 100px auto;
-  /* padding-bottom: 3.125rem; */
+  margin: 50px auto 100px auto;
+  padding-bottom: 3.125rem;
   width: 11.25rem;
   position: relative;
   color: white;
@@ -265,6 +266,10 @@ li {
 .unit {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+}
+
+.price {
+  padding-left: 55px;
 }
 
 .heading-section {
@@ -338,4 +343,15 @@ li {
 
 .nav__icons {
   width: 3.125rem;
+}
+
+.pic1 {
+  width: 120px;
+  opacity: 25%;
+  position: -10px -20px;
+}
+
+.pic2 {
+  width: 120px;
+  opacity: 25%;
 }/*# sourceMappingURL=index.css.map */
