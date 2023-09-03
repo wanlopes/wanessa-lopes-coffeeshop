@@ -27,23 +27,24 @@
   display: flex;
   justify-content: flex-end;
   margin-top: -2.5rem;
+
+  &__list {
+    font-family: $graphite;
+    font-weight: $normal;
+    font-size: 1.4375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    .content__item--active {
+      color: $nitro-blue;
+      list-style-type: none;
+    }
+  }
 }
 
-.content__list {
-  font-family: $graphite;
-  font-weight: $normal;
-  font-size: 1.4375rem;
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-  margin-bottom: 0;
-  list-style-type: none;
-}
-
-.active-menu {
-  color: $nitro-blue;
-  list-style-type: none;
-}
 
 .container {
   display: flex;
