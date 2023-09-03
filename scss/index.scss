@@ -1,18 +1,23 @@
 @use './partials/global' as *;
 
-nav {
+.nav {
   background-color: $nitro-pink;
+
+  &__icons {
+    width: 3.125rem;
+  }
+
+  &__anchor {
+    font-family: $open-sans;
+    color: $graphite;
+    font-size: 3.75rem;
+    font-weight: $light;
+    display: inline-block;
+    margin-top: 0.3125rem; 
+    margin-bottom: 0.3125rem;
+  }  
 }
 
-.nav__anchor {
-  font-family: $open-sans;
-  color: $graphite;
-  font-size: 3.75rem;
-  font-weight: $light;
-  display: inline-block;
-  margin-top: 0.3125rem; 
-  margin-bottom: 0.3125rem; 
-}
 
 .content {
   list-style-type: none;
@@ -32,6 +37,11 @@ nav {
   justify-content: flex-end;
   align-content: center;
   margin-bottom: 0;
+  list-style-type: none;
+}
+
+.active-menu {
+  color: $nitro-blue;
   list-style-type: none;
 }
 
@@ -73,7 +83,7 @@ header {
 }
 
 button {
-  font-family: $graphite;
+  font-family: $open-sans;
   color: $white;
   font-size: 1.3125rem;
   font-weight: $normal;
@@ -125,6 +135,7 @@ button {
 .info__details {
   @include fonts(2.0625rem); 
   font-weight: 300;
+  padding-bottom: 20px;
 }
 
 @mixin fonts($size) {
@@ -174,7 +185,7 @@ li {
 
 .info {
   display: inline-block;
-  padding: 3.125rem 6.25rem 3.125rem 9.375rem;
+  padding: 3.75rem 6.25rem 3.75rem 9.375rem;
 }
 
 
@@ -199,8 +210,13 @@ li {
 
 .btn-purchase button {
   box-shadow: 4px 4px 0 $nitro-blue, inset 2px 2px 0px $white;
+}
+
+.btn-purchase:active {
+  transform: translateY(-4px) translateX(-4px);
 
 }
+
 .products {
   background-color: $light-gray;
 }
@@ -260,22 +276,23 @@ padding-left: 55px;
   margin-left: 7.8125rem;
 }
 
-/*.element-1 {
-  position: relative;
-} */
 
 .back-image {
   width: 25rem;
-  margin: 7.5rem 12.5rem 2.5rem 17.5rem;
+  padding: 7.5rem 12.5rem 2.5rem 17.5rem;
   /*border: 0.3125rem solid #5bacc3; */
   position:relative;
+}
+
+.back-image element-1 {
+  box-shadow: 4px 4px 0 $nitro-blue, inset 2px 2px 0px $white;
 }
 
 .can-image {
   height: 17.5rem;
   position: absolute;
   margin-left: -31.25rem; 
-  margin-top: 10.625rem;
+  padding-top: 10.625rem;
 }  
 
 .can-image:hover {
@@ -299,10 +316,15 @@ padding-left: 55px;
   margin-top: 2.5rem;
 }
 
+.heading-section__paragraph {
+  padding-top: 0px;
+}
+
 .image-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .info-section {
@@ -328,9 +350,7 @@ padding-left: 55px;
 
 .pic1 {
   width: 120px;
-  opacity: 25%;
-  position: -10px -20px;
-
+  opacity: 25%
 }
 
 .pic2 {

@@ -38,15 +38,14 @@ h1 {
   list-style-type: none;
 }
 
-.nav__icons {
-  width: 3.125rem;
-}
-
 .nav {
+  background-color: #FFF0ED;
   padding: 20px;
 }
-
-.nav__anchor {
+.nav .nav__icons {
+  width: 3.125rem;
+}
+.nav .nav__anchor {
   color: #393939;
   font-family: "Open Sans";
   font-weight: 300;
@@ -54,12 +53,10 @@ h1 {
   display: inline;
   margin-right: 0.25rem;
 }
-
-.nav__container {
+.nav .nav__container {
   margin-top: -2.5rem;
 }
-
-.nav__list {
+.nav .nav__container .nav__list {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 1.4375rem;
@@ -71,8 +68,7 @@ h1 {
   padding-top: -40px;
   padding-right: 0;
 }
-
-.nav__item {
+.nav .nav__container .nav__list .nav__item {
   display: inline-block;
   margin-left: 1.875rem;
   margin-right: 1.875rem;

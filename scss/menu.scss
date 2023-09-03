@@ -1,45 +1,44 @@
 @use './partials/global' as *;
 
-
-.nav__icons {
-  width: 3.125rem;
-}
-
 .nav {
+  background-color: $nitro-pink;
   padding: 20px;
+
+  .nav__icons {
+    width: 3.125rem;
+  }
+  .nav__anchor {
+    color:$graphite;
+    font-family: $open-sans;
+    font-weight: $light;
+    font-size: 3.75rem;
+    display: inline;
+    margin-right: 0.25rem;
+  }
+  .nav__container {
+    margin-top: -2.5rem;
+
+    .nav__list {
+      font-family:$open-sans;
+      font-weight: $normal;
+      font-size: 1.4375rem;
+      display: flex;
+      justify-content: flex-end;
+      align-content: center;
+      margin-bottom: 0;
+      list-style-type: none;
+      padding-top: -40px;
+      padding-right: 0;
+
+      .nav__item {
+        display: inline-block;
+        margin-left: 1.875rem;
+        margin-right: 1.875rem;
+      }
+    }
+  }
 }
 
-.nav__anchor {
-  color:$graphite;
-  font-family: $open-sans;
-  font-weight: $light;
-  font-size: 3.75rem;
-  display: inline;
-  margin-right: 0.25rem;
-}
-
-.nav__container {
-  margin-top: -2.5rem;
-}
-
-.nav__list {
-  font-family:$open-sans;
-  font-weight: $normal;
-  font-size: 1.4375rem;
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-  margin-bottom: 0;
-  list-style-type: none;
-  padding-top: -40px;
-  padding-right: 0;
-}
-
-.nav__item {
-  display: inline-block;
-  margin-left: 1.875rem;
-  margin-right: 1.875rem;
-}
 
 .menu {
   background-image: url("../assets/Assets/coffee-circle.jpg");
