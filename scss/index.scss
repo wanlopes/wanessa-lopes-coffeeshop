@@ -1,7 +1,9 @@
 @use './partials/global' as *;
+@use './partials/colors' as *;
+@use './partials/typography' as *;
 
 nav {
-  background-color: #fff0ed;
+  background-color: $nitro-pink;
 }
 
 .nav__anchor {
@@ -11,8 +13,8 @@ nav {
   font-size: 3.75rem;
   font-weight: 300;
   display: inline-block;
-  margin-top: 0.3125rem;
-  margin-bottom: 0.3125rem;
+  margin-top: 0.3125rem; 
+  margin-bottom: 0.3125rem; 
 }
 
 .content {
@@ -122,19 +124,23 @@ button {
   height: 250px;
 }
 
+@mixin fonts($size) {
+  font-size: $size;
+  font-family: $open-sans;
+  color: $graphite;
+}
 .info__details {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #393939;
-  font-size: 2.0625rem;
+  @include fonts(2.0625rem); 
   font-weight: 300;
 }
 
+@mixin fonts($size) {
+  font-size: $size;
+  font-family: $open-sans;
+  color: $graphite;
+}
 .info__services {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #393939;
-  font-size: 1.125rem;
+  @include fonts(1.125rem);
   font-weight: 400;
 }
 
