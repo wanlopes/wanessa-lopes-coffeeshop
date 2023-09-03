@@ -18,7 +18,6 @@
   }  
 }
 
-
 .content {
   list-style-type: none;
   font-family: $open-sans;
@@ -45,24 +44,24 @@
   }
 }
 
-
 .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: $nitro-pink;
   padding-top: 1.25rem;
+
+  &__text  {
+    text-align: left;
+    width: 25%;
+
+    &container__paragraph {
+      padding-bottom: 0.9375rem;
+      padding-top: 0.3125rem;
+    }
+  }
 }
 
-.container__text  {
-  text-align: left;
-  width: 25%;
-}
-
-.container__paragraph {
-  padding-bottom: 0.9375rem;
-  padding-top: 0.3125rem;
-}
 
 .img {
   padding-bottom: 1.875rem;
@@ -79,6 +78,28 @@
   background-color:$nitro-pink;
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1300px;
+  align-self: center;
+  padding-top: 1.875rem;
+}
+
+.card {
+  margin-top: 1.87rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  width: 20.625rem;
+  height: 29.7rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
+  color: $dark-gray;
+  background-color:$white;
+  flex-direction: column;
+}
+
 header {
   background-color: $nitro-pink;
 }
@@ -92,6 +113,10 @@ button {
   border: 0.125rem solid $graphite;
   text-align: center;
   padding: 0.8125rem 1.625rem;
+}
+
+button a {
+  color: $white;
 }
 
 .center-align__images {
@@ -126,6 +151,36 @@ button {
 .footer {
   background-color: $nitro-pink;
   height: 250px;
+  position: relative;
+  overflow: hidden;
+
+  &__nav{
+    display: flex;
+    justify-content: space-evenly;  
+  }
+
+  &__beans{
+    position:absolute;
+    z-index: 2;
+  }
+}
+.footer::after , .footer::before{
+  content: "";
+  width: 120px;
+  height: 120px;
+  background-image: url(../assets/assets/coffee-beans-logo-and-footer.svg);
+  position: absolute;
+  opacity: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer::after {
+  top: 20px;
+  left: -20px;
+}
+.footer::before {
+  bottom: 20px;
+  right: -20px;
 }
 
 @mixin fonts($size) {
@@ -155,28 +210,6 @@ li {
   margin-right: 1.875rem;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 1300px;
-  align-self: center;
-  padding-top: 1.875rem;
-}
-
-.card {
-  margin-top: 1.87rem;
-  margin-bottom: 1.25rem;
-  display: flex;
-  width: 20.625rem;
-  height: 29.7rem;
-  border-radius: 0.625rem;
-  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
-  color: $dark-gray;
-  background-color:$white;
-  flex-direction: column;
-}
-
 
 .center-text {
   margin: auto;
@@ -186,9 +219,40 @@ li {
 
 .info {
   display: inline-block;
-  padding: 3.75rem 6.25rem 3.75rem 9.375rem;
+  padding: 3.75rem 6.25rem;
+
+  &__social {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+  }
 }
 
+.btn-container {
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.btn-container:active {
+  transform: translateY(-4px) translateX(-4px);
+}
+
+.button-container:active button {
+  box-shadow: none;
+}
+
+.learn-btn {
+  margin-top: 2.5rem;
+  transition: all 0.5s ease;
+}
+
+.learn-btn:active button {
+  box-shadow: none;
+}
+
+.learn-btn:active {
+  transform: translateY(-4px) translateX(-4px);
+}
 
 .btn-container button {
   box-shadow: 4px 4px 0 $nitro-blue, inset 2px 2px 0px $white;
@@ -207,6 +271,7 @@ li {
   color: $white;
   border: none;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 .btn-purchase button {
@@ -215,7 +280,10 @@ li {
 
 .btn-purchase:active {
   transform: translateY(-4px) translateX(-4px);
+}
 
+.btn-purchase:active button {
+  box-shadow: none;
 }
 
 .products {
@@ -280,20 +348,39 @@ padding-left: 55px;
 
 .back-image {
   width: 25rem;
-  padding: 7.5rem 12.5rem 2.5rem 17.5rem;
-  /*border: 0.3125rem solid #5bacc3; */
   position:relative;
 }
 
-.back-image element-1 {
-  box-shadow: 4px 4px 0 $nitro-blue, inset 2px 2px 0px $white;
+.element-1 {
+  border: 5px solid $nitro-blue;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.element-1::before {
+  content: "";
+  background-image: url('../assets/assets/coldbrewbackground.png');
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+}
+
+.element-1 .back-image {
+  box-shadow: 5px 5px 0 $nitro-blue, inset 2px 2px 0px $white;
 }
 
 .can-image {
-  height: 17.5rem;
-  position: absolute;
-  margin-left: -31.25rem; 
-  padding-top: 10.625rem;
+  height: 17.5rem; 
+  transform-origin: center center;
 }  
 
 .can-image:hover {
@@ -302,19 +389,11 @@ padding-left: 55px;
 
 .container-2 {
   display: flex;
-
+  justify-content: space-around;
 }
 
 .logo {
   padding-right: 90px;
-}
-
-.button-container {
-  position: relative;
-}
-
-.learn-btn {
-  margin-top: 2.5rem;
 }
 
 .heading-section__paragraph {
