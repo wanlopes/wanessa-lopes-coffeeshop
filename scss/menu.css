@@ -42,10 +42,10 @@ h1 {
   background-color: #FFF0ED;
   padding: 20px;
 }
-.nav .nav__icons {
+.nav__icons {
   width: 3.125rem;
 }
-.nav .nav__anchor {
+.nav__anchor {
   color: #393939;
   font-family: "Open Sans";
   font-weight: 300;
@@ -53,10 +53,10 @@ h1 {
   display: inline;
   margin-right: 0.25rem;
 }
-.nav .nav__container {
+.nav__container {
   margin-top: -2.5rem;
 }
-.nav .nav__container .nav__list {
+.nav__container .nav__list {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 1.4375rem;
@@ -68,10 +68,14 @@ h1 {
   padding-top: -40px;
   padding-right: 0;
 }
-.nav .nav__container .nav__list .nav__item {
+.nav__container .nav__list .nav__item {
   display: inline-block;
   margin-left: 1.875rem;
   margin-right: 1.875rem;
+}
+.nav__container .nav__list .nav__item--active {
+  color: #5bacc3;
+  list-style-type: none;
 }
 
 .menu {
@@ -84,8 +88,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
-.menu__heading {
+.menu .menu__heading {
   background-color: #393939;
   width: 18.75rem;
   height: 12.5rem;
@@ -93,13 +96,22 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-
-.menu__title {
+.menu .menu__heading .menu__title {
   padding-top: 50px;
   font-family: "Open Sans";
   color: #FFF;
   font-size: 3.75rem;
   font-weight: 300;
+}
+
+.menu__heading::after {
+  content: " ";
+  position: absolute;
+  height: 12.5rem;
+  width: 18.5rem;
+  border: 5px solid #5bacc3;
+  box-sizing: border-box;
+  transform: translate(-165px, -74%);
 }
 
 .drink-list {
@@ -111,15 +123,14 @@ h1 {
   margin-bottom: 0rem;
   border-width: 0.25rem;
 }
-
-.menu__heading::after {
-  content: " ";
-  position: absolute;
-  height: 12.5rem;
-  width: 18.5rem;
-  border: 5px solid #5bacc3;
-  box-sizing: border-box;
-  transform: translate(-165px, -74%);
+.drink-list__item {
+  display: inline-block;
+  margin: 1.875rem 1.25rem 1.875rem 1.25rem;
+  border-left: 0.25rem solid #5bacc3;
+  padding-left: 1rem;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 1.4375rem;
 }
 
 .hot,
@@ -173,19 +184,4 @@ h2 {
 
 .nav {
   background-color: #FFF0ED;
-}
-
-.drink-item {
-  display: inline-block;
-  margin: 1.875rem 1.25rem 1.875rem 1.25rem;
-  border-left: 0.25rem solid #5bacc3;
-  padding-left: 1rem;
-  color: #FFF;
-  font-family: "Open Sans";
-  font-size: 1.4375rem;
-}
-
-.nav__item--active {
-  color: #5bacc3;
-  list-style-type: none;
 }/*# sourceMappingURL=menu.css.map */

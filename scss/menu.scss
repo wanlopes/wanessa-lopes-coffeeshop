@@ -4,10 +4,10 @@
   background-color: $nitro-pink;
   padding: 20px;
 
-  .nav__icons {
+  &__icons {
     width: 3.125rem;
   }
-  .nav__anchor {
+  &__anchor {
     color:$graphite;
     font-family: $open-sans;
     font-weight: $light;
@@ -15,7 +15,7 @@
     display: inline;
     margin-right: 0.25rem;
   }
-  .nav__container {
+  &__container {
     margin-top: -2.5rem;
 
     .nav__list {
@@ -34,6 +34,12 @@
         display: inline-block;
         margin-left: 1.875rem;
         margin-right: 1.875rem;
+
+        &--active {
+          color: $nitro-blue;
+          list-style-type: none;
+        }
+        
       }
     }
   }
@@ -49,33 +55,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.menu__heading {
-  background-color: $graphite;
-  width: 18.75rem;
-  height: 12.5rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .menu__heading {
+    background-color: $graphite;
+    width: 18.75rem;
+    height: 12.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
-.menu__title {
-  padding-top: 50px;
-  font-family:$open-sans;
-  color: $white;
-  font-size: 3.75rem;
-  font-weight: $light;
-}
-
-.drink-list {
-  background-color: $graphite;
-  text-align: center;
-  width: 100%;
-  height: 5rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  border-width: 0.25rem;
+    .menu__title {
+      padding-top: 50px;
+      font-family:$open-sans;
+      color: $white;
+      font-size: 3.75rem;
+      font-weight: $light;
+    }
+  }
 }
 
 .menu__heading::after {
@@ -86,6 +82,26 @@
   border: 5px solid $nitro-blue;
   box-sizing: border-box;
   transform:translate(-165px, -74%);
+}
+
+.drink-list {
+  background-color: $graphite;
+  text-align: center;
+  width: 100%;
+  height: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-width: 0.25rem;
+
+  &__item {
+    display: inline-block;
+    margin: 1.875rem 1.25rem 1.875rem 1.25rem;
+    border-left: 0.25rem solid $nitro-blue;
+    padding-left: 1rem;
+    color: $white;
+    font-family: $open-sans;
+    font-size: 1.4375rem  
+  }
 }
 
 .hot,
@@ -139,21 +155,5 @@ h2 {
 
 .nav {
   background-color: $nitro-pink;
-}
-
-
-.drink-item {
-  display: inline-block;
-  margin: 1.875rem 1.25rem 1.875rem 1.25rem;
-  border-left: 0.25rem solid $nitro-blue;
-  padding-left: 1rem;
-  color: $white;
-  font-family: $open-sans;
-  font-size: 1.4375rem  
-}
-
-.nav__item--active {
-  color: $nitro-blue;
-  list-style-type: none;
 }
 
