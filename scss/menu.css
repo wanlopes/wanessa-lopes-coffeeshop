@@ -40,7 +40,7 @@ h1 {
 
 .nav {
   background-color: #FFF0ED;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .nav__icons {
   width: 3.125rem;
@@ -65,7 +65,7 @@ h1 {
   align-content: center;
   margin-bottom: 0;
   list-style-type: none;
-  padding-top: -40px;
+  padding-top: -2.5rem;
   padding-right: 0;
 }
 .nav__container .nav__list .nav__item {
@@ -98,7 +98,7 @@ h1 {
   margin-right: auto;
 }
 .menu .menu__heading .menu__title {
-  padding-top: 50px;
+  padding-top: 3.125rem;
   font-family: "Open Sans";
   color: #FFF;
   font-size: 3.75rem;
@@ -110,9 +110,9 @@ h1 {
   position: absolute;
   height: 12.5rem;
   width: 18.5rem;
-  border: 5px solid #5bacc3;
+  border: 0.3125rem solid #5bacc3;
   box-sizing: border-box;
-  transform: translate(-165px, -74%);
+  transform: translate(-10.3125rem, -74%);
 }
 
 .drink-list {

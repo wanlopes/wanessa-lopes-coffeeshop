@@ -406,7 +406,7 @@ li {
 }
 
 .can-image:hover {
-  animation: rotationcan 2s;
+  animation: rotationcan 2s linear infinite;
 }
 
 .container-2 {
@@ -473,6 +473,6 @@ li {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
   }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=landing.css.map */

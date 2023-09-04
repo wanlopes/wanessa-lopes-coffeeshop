@@ -2,7 +2,7 @@
 
 .nav {
   background-color: $nitro-pink;
-  padding: 20px;
+  padding: 1.25rem;
 
   &__icons {
     width: 3.125rem;
@@ -27,7 +27,7 @@
       align-content: center;
       margin-bottom: 0;
       list-style-type: none;
-      padding-top: -40px;
+      padding-top: -2.5rem;
       padding-right: 0;
 
       .nav__item {
@@ -65,7 +65,7 @@
     margin-right: auto;
 
     .menu__title {
-      padding-top: 50px;
+      padding-top: 3.125rem;
       font-family:$open-sans;
       color: $white;
       font-size: 3.75rem;
@@ -79,9 +79,9 @@
   position:absolute;
   height: 12.5rem;
   width: 18.5rem;
-  border: 5px solid $nitro-blue;
+  border: 0.3125rem solid $nitro-blue;
   box-sizing: border-box;
-  transform:translate(-165px, -74%);
+  transform:translate(-10.3125rem, -74%);
 }
 
 .drink-list {
