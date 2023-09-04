@@ -34,6 +34,7 @@
         display: inline-block;
         margin-left: 1.875rem;
         margin-right: 1.875rem;
+        color: $graphite;
 
         &--active {
           color: $nitro-blue;
@@ -44,7 +45,6 @@
     }
   }
 }
-
 
 .menu {
   background-image: url("../assets/Assets/coffee-circle.jpg");
@@ -157,3 +157,6 @@ h2 {
   background-color: $nitro-pink;
 }
 
+li a {
+  color: $white;
+}

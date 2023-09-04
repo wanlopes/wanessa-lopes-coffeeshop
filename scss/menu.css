@@ -72,6 +72,7 @@ h1 {
   display: inline-block;
   margin-left: 1.875rem;
   margin-right: 1.875rem;
+  color: #393939;
 }
 .nav__container .nav__list .nav__item--active {
   color: #5bacc3;
@@ -184,4 +185,8 @@ h2 {
 
 .nav {
   background-color: #FFF0ED;
+}
+
+li a {
+  color: #FFF;
 }/*# sourceMappingURL=menu.css.map */

@@ -175,12 +175,12 @@ button a {
   background-repeat: no-repeat;
 }
 .footer::after {
-  top: 20px;
-  left: -20px;
+  top: 10px;
+  left: -38px;
 }
 .footer::before {
-  bottom: 20px;
-  right: -20px;
+  bottom: 23px;
+  right: -45px;
 }
 
 @mixin fonts($size) {
@@ -231,13 +231,14 @@ li {
 .btn-container {
   position: relative;
   transition: all 0.5s ease;
+  margin-top: 20px;
 }
 
 .btn-container:active {
   transform: translateY(-4px) translateX(-4px);
 }
 
-.button-container:active button {
+.btn-container:active button {
   box-shadow: none;
 }
 
